@@ -1,4 +1,4 @@
-<?php
+<html>
 <h3>Dzień</h3>
 <p>Wybierz dzień.</p>
 <form action="...">
