@@ -2,9 +2,16 @@
 <p>Wybierz dzien.</p>
 <form action="...">
 	<select name="Dzien">
-		<option>1<?php value=$d=1?></option>
-		<option>2<?php value=$d=2?></option>
-		(...)
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
 	</select>
 </form>
 <h3>Miesiac</h3>
@@ -13,7 +20,16 @@
 	<select name="Miesiac">
 		<option>styczen</option>
 		<option>luty</option>
-		(...)
+		<option>marzec</option>
+		<option>kwiecien</option>
+		<option>maj</option>
+		<option>czerwiec</option>
+		<option>lipiec</option>
+		<option>sierpien</option>
+		<option>wrzesien</option>
+		<option>pazdziernik</option>
+		<option>listopad</option>
+		<option>grudzien</option>
 	</select>
 </form>
 <h3>Rok</h3>
