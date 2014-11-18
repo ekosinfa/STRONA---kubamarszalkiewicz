@@ -104,7 +104,4 @@ Quisque mattis purus vitae ipsum mattis luctus. Nulla a mi varius, gravida augue
 Maecenas ac velit nec magna consequat malesuada eu ac nulla. Praesent et placerat lacus. Ut hendrerit felis in orci viverra volutpat. Aliquam ut ipsum finibus lacus congue consequat. Donec eros mi, consectetur eget varius vel, bibendum et mi. Vivamus id augue imperdiet, tincidunt augue et, vehicula ante. Aliquam sit amet tortor vitae tellus tempus gravida. Vivamus cursus velit quam, in placerat sem elementum sed. Pellentesque sit amet vehicula justo, pellentesque vestibulum urna. Integer vulputate facilisis sollicitudin. Sed vel est tristique, lobortis quam quis, sodales lacus. Phasellus quis interdum metus. Vivamus vestibulum orci sed nulla bibendum dictum. Praesent orci nisl, bibendum a purus vel, pharetra laoreet velit. Integer eu massa aliquet, ultrices velit non, ultricies ante. Morbi in eros non quam consectetur pretium ut sed dui.
 
 Suspendisse potenti. Nulla lacinia porta cursus. Ut eu ante ac nisl gravida feugiat. Curabitur mauris elit, feugiat a nisi vitae, porttitor suscipit mauris. Cras orci justo, sodales congue fringilla ac, consectetur et lectus. Vivamus tempor eget enim eget sagittis. Ut volutpat suscipit nunc, at luctus diam convallis consequat. Morbi enim elit, commodo nec nulla vel, pharetra sagittis mi. Sed vulputate pellentesque nisl, quis porta augue vehicula tempor. Nulla leo dui, sodales vitae auctor a, sodales non turpis.';
-
 }
-<input type="text">
-<input type="submit" value="Gotowe!">
