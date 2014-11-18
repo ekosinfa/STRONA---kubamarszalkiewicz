@@ -1,2 +1,2 @@
 <?php
-print $_GET['imie']
+print $_GET['imie'];
