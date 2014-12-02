@@ -6,5 +6,5 @@ echo $rows['imie'];
 echo $rows['nick'];
 echo $rows['nazwisko'];
 echo $rows['wiek'];
-echo $rows['drużyna'];
+echo $rows['druzyna'];
 }
