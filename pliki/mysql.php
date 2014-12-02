@@ -14,6 +14,9 @@ echo '<tr>'.'<td>'.$rows['imie'].'</td>';
 echo '<td>'.$rows['nazwisko'].'</td>';
 echo '<td>'.$rows['nick'].'</td>';
 echo '<td>'.$rows['wiek'].'</td>';
-echo '<td>'.$rows['druzyna'].'</td>';
+echo '<td>'.$rows['druzyna'].'</td>'.'</tr>';
 }
+?>
+</table>
 </body>
+</html>
