@@ -1,8 +1,7 @@
 <?php
-$licznik = '6';
-$liczba = '3875';
-print 'Suma to: '."$licznik*$liczba";
-?>
+$licznik = 6;
+$liczba = 3875;
+print 'Suma to: '.$licznik*$liczba;
 <br><br><br>
 echo 'Napisz kod, którego wynikiem bedzie to co wyżej';
 <br>
