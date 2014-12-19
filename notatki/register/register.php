@@ -1,21 +1,21 @@
 <?php 
 //Sprawdzanie,czy zmienne są ustawione i inne rzeczy
 if(empty($_POST['username'])){
-  exit('ERROR:Nie wpisales nazwy uzytkownika');
+  exit('ERROR:Nie wpisałeś nazwy użytkownika!');
 }
 if(empty($_POST['email'])){
-  exit('ERROR:Nie wpisales adresu email');
+  exit('ERROR:Nie wpisałe adresu email!');
 }
 if(empty($_POST['imienazwisko'])){
-  exit('ERROR:Nie wpisales swego imienia i nazwiska');
+  exit('ERROR:Nie wpisałeś swojego imienia i nazwiska!');
 }
 if(empty($_POST['haslo1'])){
-  exit('ERROR:Nie wpisales hasla');
+  exit('ERROR:Nie wpisałeś hasła!');
 }
 if(empty($_POST['haslo2'])){
-  exit('ERROR:Nie wpisales hasla');
+  exit('ERROR:Nie wpisałeś hasła!');
 }
 if($_POST['haslo1']!=$_POST['haslo2']){
-  exit('ERROR:hasla nie sa identyczne');
+  exit('ERROR:Hasła nie są identyczne!');
 }
 ?>
