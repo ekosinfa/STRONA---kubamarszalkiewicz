@@ -20,4 +20,5 @@ if($_POST['haslo1']!=$_POST['haslo2']){
 }
 if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL )==false){
   exit('Adres e-mail jest nieprawidłowy!');};
-?>
+$connect=mysqli_connect("localhost","kuba","kubaxsw21qaz","ekosinfa_kuba");
+
