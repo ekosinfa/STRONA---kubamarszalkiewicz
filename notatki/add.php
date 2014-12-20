@@ -12,7 +12,7 @@ if($nazwa and $tresc) {
     //or die('Nie mogę połączyć się z bazą danych'); 
      
     // dodajemy rekord do bazy 
-    $ins = INSERT INTO notes ( title, notes ) VALUES ('".$nazwa."','".$tresc."); 
+    $ins = INSERT INTO notes ( title,notes ) VALUES ($nazwa,$tresc); 
      
     if($ins) echo "Rekord został dodany poprawnie"; 
     else echo "Błąd nie udało się dodać nowego rekordu"; 
