@@ -1,7 +1,7 @@
 <?php 
 // odbieramy dane z formularza 
 $nazwa = $_GET['nazwa']; 
-$tersc = $_GET['notatka']; 
+$tresc = $_GET['notatka']; 
 
 if($nazwa and $tresc) { 
      
