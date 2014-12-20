@@ -8,7 +8,7 @@ if($nazwa and $tresc) {
     // łączymy się z bazą danych 
     $connection = @mysql_connect("localhost", "kuba", "kubaxsw21qaz","ekosinfa_kuba") 
     or die('Brak połączenia z serwerem MySQL'); 
-    $db = @mysql_select_db('notes', $connection) 
+    $db = @mysql_select_db("notes", $connection) 
     or die('Nie mogę połączyć się z bazą danych'); 
      
     // dodajemy rekord do bazy 
