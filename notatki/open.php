@@ -9,7 +9,7 @@
 $nazwa = $_GET['nazwa'];
 $connect=mysqli_connect("localhost","kuba","kubaxsw21qaz","ekosinfa_kuba");
 $result=mysqli_query($connect,'SELECT $nazwa FROM notes');
-$rows=mysqli_fetch_array($result)
+$rows=mysqli_fetch_array($result);
 echo $rows['title'];
 echo $rows['notes'];
 ?>
