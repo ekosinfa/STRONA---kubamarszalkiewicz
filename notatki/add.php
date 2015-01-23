@@ -14,7 +14,7 @@ if($nazwa and $tresc) {
     // dodajemy rekord do bazy 
     $query = 'INSERT INTO notes (title, notes) VALUES (\''.$nazwa.'\',\''.$tresc.'\')';
     var_dump($query);
-    $ins = mysqli_query($query); 
+    $ins = mysqli_query($query) or die(mysqli_error($connection)); 
     if($ins) echo "Rekord został dodany poprawnie"; 
     else echo "Błąd nie udało się dodać nowego rekordu"; 
      
