@@ -6,7 +6,7 @@ $tresc = $_GET['notatka'];
 if($nazwa and $tresc) { 
      
     // łączymy się z bazą danych 
-    $connection = mysql_connect("localhost", "kuba", "kubaxsw21qaz","ekosinfa_kuba") 
+    $connection = mysqli_connect("localhost", "kuba", "kubaxsw21qaz","ekosinfa_kuba") 
     or die('Brak połączenia z serwerem MySQL'); 
     //$db = @mysql_select_db("notes", $connection) 
     //or die('Nie mogę połączyć się z bazą danych'); 
@@ -17,7 +17,7 @@ if($nazwa and $tresc) {
     if($ins) echo "Rekord został dodany poprawnie"; 
     else echo "Błąd nie udało się dodać nowego rekordu"; 
      
-    mysql_close($connection); 
+    mysqli_close($connection); 
 } 
 
 ?> 
